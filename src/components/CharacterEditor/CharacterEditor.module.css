@@ -4,9 +4,11 @@
 }
 
 .maxWidthWrapper {
+  position: relative;
 }
 
 .header {
+  width: 65%;
   padding-bottom: 64px;
 }
 
@@ -24,7 +26,33 @@
 }
 
 .characterWrapper {
+  position: fixed;
+  padding-top: 128px;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1024px;
+  min-height: 500px;
+}
+
+.characterWrapper > * {
+  position: absolute;
+  right: 0;
+  width: 35%;
 }
 
 .controlColumn {
+  width: 50%;
+}
+
+.perspectiveBar {
+  position: fixed;
+  z-index: -1;
+  left: 0;
+  bottom: 0;
+  height: 40vh;
+  width: 100%;
+  background: hsl(195deg, 20%, 86%);
 }

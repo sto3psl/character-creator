@@ -24,3 +24,9 @@
   font-weight: 400;
   color: hsl(0deg, 0%, 30%);
 }
+
+.scrollContainer {
+  overflow-x: scroll;
+  margin-bottom: -16px;
+  padding-bottom: 16px;
+}
